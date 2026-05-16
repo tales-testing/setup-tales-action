@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(shellcheck -x scripts/*.sh)",
+      "Bash(shellcheck --version)",
+      "Bash(gh run *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(bash scripts/test-install.sh)",
+      "Bash(git commit -m ' *)",
+      "Bash(git tag *)",
+      "Bash(gh release *)",
+      "Bash(git ls-remote *)"
+    ]
+  }
+}
